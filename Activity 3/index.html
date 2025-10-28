@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="myjoin"></p>
+    <p id="myfirstpop"></p>
+    <p id="mysecondpop"></p>
+    <script>
+         var colours = ["Lavender", "Rose Gold", "Black", "Pink"];
+        document.getElementById("myjoin").innerHTML = colours.join
+        (" ~ ");
+        document.getElementById("myfirstpop").innerHTML = colours;
+        colours.pop();
+        document.getElementById("mysecondpop").innerHTML = colours;
+        colours.pop();
+    </script>
+</body>
+</html>
